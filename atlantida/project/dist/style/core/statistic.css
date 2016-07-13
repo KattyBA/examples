@@ -1,0 +1,16 @@
+.statistic {
+  overflow: hidden;
+  background: #e3e3e3;
+  padding: 20px 0; }
+  .statistic_block {
+    float: left;
+    width: 25%;
+    text-align: center; }
+  .statistic_text {
+    padding-top: 10px;
+    text-transform: uppercase;
+    font: 13px/18px 'Montserrat Regular'; }
+  .statistic_number {
+    padding-top: 20px;
+    font: 45px/80px 'Montserrat Regular';
+    color: #3e3d3d; }

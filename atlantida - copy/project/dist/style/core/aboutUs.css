@@ -1,0 +1,50 @@
+.title {
+  font: 20px/25px "Amsdam Regular";
+  color: #3e3d3d;
+  position: relative;
+  padding-bottom: 75px;
+  margin: auto;
+  display: inline-block;
+  text-transform: uppercase; }
+  .title:after {
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: 27px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 5px;
+    background: url("../img/border_black.png") 0 0 repeat; }
+  .title_frame {
+    text-align: center; }
+  .title-white {
+    color: #fff; }
+    .title-white:after {
+      background: url("../img/border_white.png") 0 0 repeat; }
+
+.aboutUs {
+  background: #e3e3e3;
+  padding-top: 68px; }
+  .aboutUs_background {
+    background: url("../img/bg2.jpg");
+    height: 325px; }
+  .aboutUs_block {
+    padding: 70px;
+    background: #fff; }
+  .aboutUs_paragraph {
+    font: 14px/25px "Crimson Text Roman"; }
+  .aboutUs .button {
+    border: 1px solid #3e3d3d;
+    outline: 1px solid #605f5f;
+    color: #3e3d3d;
+    font: 13px/45px 'Montserrat Regular';
+    letter-spacing: 1px;
+    padding: 14px 27px; }
+    .aboutUs .buttons {
+      text-align: center;
+      padding-top: 40px; }
+    .aboutUs .button-black {
+      background: #3e3d3d;
+      outline: 1px solid #605f5f;
+      color: #fff; }
